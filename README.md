@@ -3,6 +3,8 @@ A mbed (or Arduino) program for transmitting data between 2 MCU.
 
 The Master branch contains the mbed program for STM32F103RB.
 
+The mbed-os version is 6.13.
+
 Receiving function is done in a stand-alone thread in the class.
 
 When you declare a Sender object, the thread starts receiving automatically.
